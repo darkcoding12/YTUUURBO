@@ -43,10 +43,9 @@ class main(object):
                 print(Fore.LIGHTMAGENTA_EX + f"Botted:{self.botted}\n")
                 for i in range(len(self.printing) - 10, len(self.printing)):
                     try:
-                        print("Усешно!")
+                        print(" ")
                     except (ValueError, Exception):
-                        print("Не успешно")
-                time.sleep(0.5)
+                        pass
 a = main()
 class proxy():
 
