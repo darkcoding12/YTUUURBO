@@ -9,12 +9,19 @@ from colorama import Fore, init
 
 clear = "clear"
 intro = """
- ▒▒    ▒▒
-  ▒▒  ▒▒   [Накрутка зрителей на стримы ютуб]
-   ▒▒▒▒     CHANNEL TGRAMM: @coding_lab
-    ▒▒     
-    ▒▒-TUUURBO
-    ▒▒
+  \033[31m               
+  \ \ / /__  _   _   
+   \ V / _ \| | | |  
+	| | (_) | |_| |  
+    |_|\___/ \__,_|  \033[0m
+   _      _            
+  |_   _|   _| |__   _   
+    | || | | | '_ \ / _ \  
+    | || |_| | |_) |  /  
+    |_| \__,_|_.__/ \___|  
+
+                           
+  .::Coding-Lab::. |t.me/coding-lab|					   				   
 """
 os.system(clear)
 print(Fore.LIGHTMAGENTA_EX + intro)
